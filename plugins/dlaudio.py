@@ -45,10 +45,6 @@ async def send_music(client, message):
             await client.delete_messages("me", saved.id)
         except TimeoutError:
             await message.edit("Hla a download theih loh.")
-            await asyncio.sleep(2)
-        await message.delete()
     except Exception as e:
         print(e)
         await message.edit("Hla a download theih loh.")
-        await asyncio.sleep(2)
-        await message.delete()
