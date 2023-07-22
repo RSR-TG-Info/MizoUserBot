@@ -1,5 +1,7 @@
 Mizo Telegram UserBot || Repository hi i import emaw download-a i hman dawn paw'n star leh fork kha theihnghilh lo la aw :)
 
+Plugin hi dah belh zel tum a ni
+
 # Host dan(VPS/Local)
 <p>
 <pre>
