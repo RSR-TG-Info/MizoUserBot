@@ -37,13 +37,13 @@ async def mzupdate(client, message):
         if "upstream" in repo.remotes:
             origin = repo.remote("upstream")
         else:
-            origin = repo.create_remote("upstream", "(I repo link)") # (I repo link) tih aiah hian i repository link, private emaw public kha i hman dan a zirin dah mai tur
+            origin = repo.create_remote("upstream", "(I repo link)")
         origin.fetch()
         repo.create_head("main", origin.refs.main)
         repo.heads.main.set_tracking_branch(origin.refs.main)
         repo.heads.main.checkout(True)
     try:
-        repo.create_remote("upstream", "(I repo link)") # (I repo link) tih aiah hian i repository link, private emaw public kha i hman dan a zirin dah mai tur
+        repo.create_remote("upstream", "(I repo link)")
     except BaseException:
         pass
     ups_rem = repo.remote("upstream")
