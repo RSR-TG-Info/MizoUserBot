@@ -1,4 +1,4 @@
-#Audio downloader plugin (Credit Zaid Userbot)
+#Audio downloader plugin (Credit Zaid)
 import asyncio
 from pyrogram import Client, filters
 from rsrconfig import Config
