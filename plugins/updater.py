@@ -29,7 +29,7 @@ async def mzupdate(client, message):
     try:
         repo = Repo()
     except GitCommandError:
-        return await mesage.reply(
+        return await message.reply(
             "Harsatna eng emaw vangin ka in update thei lo."
         )
     except InvalidGitRepositoryError:
