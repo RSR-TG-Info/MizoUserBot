@@ -6,7 +6,7 @@ from os import environ, execle, path, remove
 from pyrogram import Client, filters
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
-frm rsrconfig import Config
+from rsrconfig import Config
 
 
 async def run_cmd(cmd: str) -> Tuple[str, str, int, int]:
