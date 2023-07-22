@@ -11,4 +11,6 @@ python3 bot.py
 </pre>
 </p>
 
+Support Group - https://t.me/helptereuhte
+
 Copyright ©️ 2023 <a href="https://github.com/RSR-TG-Info">RSR</a>
