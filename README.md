@@ -11,7 +11,7 @@ python3 bot.py
 </pre>
 </p>
 
-Tutorial - https://youtube.com/jdjskskska
+Tutorial - https://youtu.be/U9tJ_GkzVCs
 
 Support Group - https://t.me/helptereuhte
 
