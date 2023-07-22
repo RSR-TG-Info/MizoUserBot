@@ -17,7 +17,7 @@ async def send_music(client, message):
                     message.reply_to_message.text or message.reply_to_message.caption
             )
         elif not message.reply_to_message and len(cmd) == 1:
-            await message.edit("Give a song name")
+            await message.edit("Hla hming dah tel tur.")
             await asyncio.sleep(2)
             await message.delete()
             return
