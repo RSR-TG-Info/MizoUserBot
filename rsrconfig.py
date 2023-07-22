@@ -1,7 +1,7 @@
 class Config(object):
 
     # my.telegram.org atanga lak tur
-    API_ID =  API ID # API ID tih hi i API ID in i thlak ang
+    API_ID = API ID # API ID tih hi i API ID in i thlak ang
    
     # my.telegram.org atanga lak tur
     API_HASH = "API hash" # API hash tih hi i API hash in i thlak ang
