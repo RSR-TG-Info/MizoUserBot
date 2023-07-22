@@ -11,8 +11,8 @@ python3 bot.py
 </pre>
 </p>
 
-Tutorial - https://youtu.be/U9tJ_GkzVCs
+Tutorial - https://youtu.be/U9tJ_GkzVCs --- Tawngkam ka thiam lo a nia :( ---
 
-Support Group - https://t.me/helptereuhte
+Support Group - https://t.me/helptereuhte 
 
 Copyright ©️ 2023 <a href="https://github.com/RSR-TG-Info">RSR</a>
