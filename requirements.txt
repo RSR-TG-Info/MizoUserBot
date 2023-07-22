@@ -2,3 +2,4 @@ pyrogram
 tgcrypto
 asyncio
 typing-extensions
+git-python
