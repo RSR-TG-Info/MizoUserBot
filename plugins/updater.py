@@ -53,6 +53,7 @@ async def mzupdate(client, message):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await run_cmd("pip3 install -r requirements.txt")
+    await message.reply("Ka in restart zo e, second 10 hnu velah min hmang dawn nia.")
     args = [sys.executable, "bot.py"]
     execle(sys.executable, *args, environ)
     exit()
