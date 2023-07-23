@@ -17,4 +17,6 @@ Tutorial - https://youtu.be/U9tJ_GkzVCs --- Tawngkam ka thiam lo a nia :( ---
 
 Support Group - https://t.me/helptereuhte 
 
+Plugin Channel - https;//t.me/mizouserbotplugin
+
 Copyright ©️ 2023 <a href="https://github.com/RSR-TG-Info">RSR</a>
