@@ -1,3 +1,5 @@
+#Credit RSR
+
 from pyrogram import Client
 
 API_ID = int(input("Enter API ID: "))
