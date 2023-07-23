@@ -1,3 +1,5 @@
+#Credit RSR
+
 from pyrogram import Client
 from rsrconfig import Config
 
