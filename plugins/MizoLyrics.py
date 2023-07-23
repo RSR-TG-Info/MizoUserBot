@@ -10,10 +10,11 @@ async def mzlyrics(client, message):
     query = message.text.split(None, 1)[1]
     chat = message.chat.id
     try:
-        await client.send_message(chat_id="@tereuhte_bot",text=f"/mlyrics {query}")
+        await client.send_message(chat_id="@tereuhte_bot", text=f"/start")
     except RPCError:
         await ee.edit("@tereuhte_bot unblock la ti leh rawh.")
         return
+    await client.send_message(chat_id="@tereuhte_bot",text=f"/mlyrics {query}")
     await asyncio.sleep(7)
     async for rsr in client.get_chat_history("@tereuhte_bot", limit=1):
         hmm = rsr.text
