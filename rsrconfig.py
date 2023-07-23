@@ -1,3 +1,5 @@
+#Credit RSR
+
 class Config(object):
 
     # my.telegram.org atanga lak tur
