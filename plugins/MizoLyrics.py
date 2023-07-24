@@ -24,5 +24,5 @@ async def mzlyrics(client, message):
             
         else:
             await ee.delete()
-            await rsr.copy(chat)
+            await rsr.copy(chat, reply_to_message_id=message.id)
     
