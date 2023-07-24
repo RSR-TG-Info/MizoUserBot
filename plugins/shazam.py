@@ -24,6 +24,6 @@ async def mzshazam(client, message):
             
             else:
                 await ee.delete()
-                await rsr.copy(chat)
+                await rsr.copy(chat, reply_to_message_id=message.id)
     else:
         await ee.edit("Video emaw Audio emaw Doc file reply tur.")
