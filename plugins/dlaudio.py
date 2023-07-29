@@ -17,8 +17,6 @@ async def send_music(client, message):
             )
         elif not message.reply_to_message and len(cmd) == 1:
             await message.edit("Hla hming dah tel tur.")
-            await asyncio.sleep(2)
-            await message.delete()
             return
 
         song_results = await client.get_inline_bot_results("deezermusicbot", song_name)
